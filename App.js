@@ -88,9 +88,10 @@ export default class App extends React.Component {
           onChange={this.updateTime('break')}
           value={this.state.breakTime}
         />
+        <Text>{this.state.activeTimer}</Text>
       </View>
       // <View style={styles.container}>
-      //   <Text>{this.state.activeTimer}</Text>
+
       // </View>
     );
   }
